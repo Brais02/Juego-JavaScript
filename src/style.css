@@ -6,12 +6,18 @@ body {
     background-color: #f5f5f5;
   }
   
-  header, footer {
+  header {
     background-color: #333;
     color: #fff;
     padding: 10px;
   }
   
+  footer {
+    margin-top: auto;
+    background-color: #ccc;
+    height: 100px;
+  }
+
   nav {
     float: right;
   }
@@ -83,3 +89,23 @@ body {
   table.resultados tr:hover {
     background-color: #f5f5f5;
   }
+
+
+  /* Estilos para el contenedor principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+  flex: 1;
+}
+
+/* Estilos para el header */
+header {
+  background-image: url('./img/Coruna.jpg');
+  background-size: cover;
+  height: 200px;
+}
