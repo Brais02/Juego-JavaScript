@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Estilos para las tablas de resultados */
+  table.resultados {
+    margin: 0 auto;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+  }
+  
+  table.resultados th, table.resultados td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  table.resultados th {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  table.resultados tr:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  table.resultados tr:hover {
+    background-color: #f5f5f5;
+  }
